@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+.vscode/
+
+# WebSocket configuration specific to each ESP32 installation.
+# Never commit the server URL, device ID, or certificate.
+SomfyController/RemoteWebSocketConfig.h
+firmware/espsomfy-rts-2.4.7/RemoteWebSocketConfig.h
