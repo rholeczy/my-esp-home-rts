@@ -8,3 +8,5 @@ __pycache__/
 # Never commit the server URL, device ID, or certificate.
 SomfyController/RemoteWebSocketConfig.h
 firmware/espsomfy-rts-2.4.7/RemoteWebSocketConfig.h
+
+SomfyController.git-backup/
