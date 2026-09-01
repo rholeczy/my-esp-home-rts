@@ -1,0 +1,15 @@
+--- SomfyController.ino
++++ SomfyController.ino
+@@
+ #include "GitOTA.h"
++#include "RemoteWebSocket.h"
+@@
+ GitUpdater git;
++RemoteWebSocket remoteWebSocket;
+@@
+   net.setup();
+   somfy.begin();
++  remoteWebSocket.begin();
+@@
+   net.loop();
++  remoteWebSocket.loop();
